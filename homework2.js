@@ -26,9 +26,7 @@ function pow(x, y) {
   let result = 1;
 
   for (let i = 1; i <= y; i++) {
-    for (let j = 1; j <= 1; j++) {
-      result = result * x;
-    }
+    result = result * x;
   }
 
   if (isNegative) {
