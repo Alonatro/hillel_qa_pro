@@ -16,10 +16,10 @@ function pow(x, y) {
     return 1;
   }
 
-  let Negative = false;
+  let isNegative = false;
 
   if (y < 0) {
-    Negative = true;
+    isNegative = true;
     y = -y;
   }
 
@@ -31,7 +31,7 @@ function pow(x, y) {
     }
   }
 
-  if (Negative) {
+  if (isNegative) {
     return 1 / result;
   }
 
