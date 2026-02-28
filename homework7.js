@@ -1,3 +1,5 @@
+//Homework7 Part.1
+
 var arr = [
     {
         userName:"Test",
@@ -28,3 +30,14 @@ const trustedEmails = arr
 
 console.log(trustedEmails);
 
+//Homework7 Part.2
+
+const regex = /\b[B-Zb-z]{6,}\b/g;
+
+//як я перевіряла
+
+const text = "Wonderful Joyful Happiness Time Task Apple";
+
+const matches = text.match(regex);
+
+console.log(matches);
